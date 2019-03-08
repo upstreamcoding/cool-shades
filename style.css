@@ -1,5 +1,24 @@
 html,
 body {
+  background-color: lightgrey;
   margin: 0;
   padding: 0;
+  
+  height: 100%;
+}
+
+
+.navbar-brand > img {
+  display: block;
+}
+
+.background-image {
+  background-image: url("images/hero.jpg");
+  background-size: cover;
+
+  display: table;
+  height: 100%;
+  padding-top: 86px;
+  position: relative;
+  width: 100%;
 }
