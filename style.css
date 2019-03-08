@@ -3,22 +3,59 @@ body {
   background-color: lightgrey;
   margin: 0;
   padding: 0;
-  
+
+  /* Makes the hero.jpg image fill the height of the browser along with properites in .background-image */
   height: 100%;
-}
-
-
-.navbar-brand > img {
-  display: block;
+  /* end */
 }
 
 .background-image {
+  padding-top: 25px;
+
+  /* Make the hero.jpg image fill the height of the browser */
   background-image: url("images/hero.jpg");
   background-size: cover;
-
-  display: table;
   height: 100%;
-  padding-top: 86px;
-  position: relative;
-  width: 100%;
+  /* end */
+}
+
+
+/***************************
+********** HEADER **********
+****************************/
+header .container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.navbar-brand > img {
+  display: block;
+  /* Remember: T R B L */
+  margin: 0 0 5px 0;
+}
+
+.navbar-brand--sublogo {
+  color: black;
+  font-size: 13px;
+  /* CSS Layout: "Flexbox" */
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  /* end */
+}
+
+nav a {
+  color: white;
+  padding: 10px 5px;
+  margin-right: 10px; /* Adds right margin to each <a> tag */
+}
+
+nav a:last-child { /* last-child targets just the last <a> tag */
+  margin: 0;
+}
+
+nav a:hover {
+  color: white;
+  text-decoration: underline;
 }
