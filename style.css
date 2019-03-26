@@ -172,43 +172,43 @@ main p {
 /* PRODUCTS CONTENT CSS */
 /********************/
 #style-products > .row {
-	margin: 0 10px;
+  margin: 0 10px;
 }
 
 .peppers-product {
-	padding: 0 5px;
+  padding: 0 5px;
 }
 
 .peppers-product > p, .product-price {
-	background-color: #fAfAfA;
-	color: #000;
-	text-align: center;
+  background-color: #fAfAfA;
+  color: #000;
+  text-align: center;
 }
 
 .peppers-product > p {
   font-size: 1em;
   font-weight: 500;
-	margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 p.product-price {
-	font-weight: bold;
+  font-weight: bold;
   font-size: 1.25em;
   margin-bottom: 0;
-	padding-bottom: 1.5em;
+  padding-bottom: 1.5em;
 }
 
 .peppers-product > h3 {
-	background-color: #fAfAfA;
+  background-color: #fAfAfA;
   font-style: italic;
   font-weight: bold;
-	margin-bottom: 0;
-	padding-bottom: 1.5em;
-	text-align: center;
+  margin-bottom: 0;
+  padding-bottom: 1.5em;
+  text-align: center;
 }
 
 .product-cta-container {
-	background-color: #fAfAfA;
-	padding-bottom: 5em;
-	text-align: center;
+  background-color: #fAfAfA;
+  padding-bottom: 5em;
+  text-align: center;
 }
